@@ -1,0 +1,13 @@
+<map id="photo_index" name="photo_index">
+  <area href="01_brown_bear.png" shape="rect" coords="0,0,361,230" alt="" />
+  <area href="02_red_bird.png" shape="rect" coords="362,0,723,230" alt="" />
+  <area href="03_yellow_duck.png" shape="rect" coords="724,0,1085,230" alt="" />
+  <area href="04_blue_horse.png" shape="rect" coords="1086,0,1447,230" alt="" />
+  <area href="05_green_frog.png" shape="rect" coords="0,231,361,461" alt="" />
+  <area href="06_purple_cat.png" shape="rect" coords="362,231,723,461" alt="" />
+  <area href="07_white_dog.png" shape="rect" coords="724,231,1085,461" alt="" />
+  <area href="08_black_sheep.png" shape="rect" coords="1086,231,1447,461" alt="" />
+  <area href="09_gold_fish.png" shape="rect" coords="0,462,361,692" alt="" />
+  <area href="10_teacher.png" shape="rect" coords="362,462,723,692" alt="" />
+  <area href="11_children.png" shape="rect" coords="724,462,1085,692" alt="" />
+</map>
