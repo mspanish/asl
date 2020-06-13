@@ -1,0 +1,86 @@
+body {
+    background-color: #f2eded;
+    text-align: center;
+}
+#navbar {
+    height: 60px;
+    background-color: #2d3e50;
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;	  
+    align-items: center;
+}
+#navbar > .btn  {
+    background-color: #eee;
+    padding: 7px;
+    border-radius: 4px;
+    color: black;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+#navbar > .btn:hover {
+    background-color: #999;
+}
+#navbar > div > a { 
+    text-decoration:none;
+    color: black;
+}
+#title {
+    font-family: 'Luckiest Guy', cursive;
+    font-weight: 100;
+}
+#intro {
+    font-size: .8rem;
+    width: 50%;
+    color: #666;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    }
+#main {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;	
+}
+.card {
+    padding: 20px;
+    padding-bottom: 20px;
+    border-radius: 8px;
+    background-color: #eee;
+    margin-bottom: 50px;
+    box-shadow: 5px 5px 5px #dad3d3;
+    min-width: 300px;
+}
+.card > a > img {
+    margin-bottom: 20px;
+}
+
+a:hover {
+    opacity: .6;
+}
+.upperCard {
+    background-color: #ffffff;
+    margin-left: -20px;
+    margin-right: -20px;
+    padding-bottom: 20px;
+    margin-top: -20px;
+    padding-top: 20px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+.upperCard > a > img {
+    border-radius: 8px;
+}
+.lowerCard {
+    display: block;
+    padding-top: 20px;
+}
+.lowerCard > div {
+    display: inline-block;
+}
+.lowerCard > div > img {
+    width: 200px;
+}
+div > span {
+    display: block;
+}

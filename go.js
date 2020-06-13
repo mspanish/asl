@@ -40,7 +40,7 @@ const outputHTML = (file) => {
 const writeFiles = (files) => {
     for (let filey of files) {
         let name = filey.replace('.gif', '');
-        outputHTML(name);
+      //  outputHTML(name);
         names.push(name);
     }
     openMain();
@@ -48,7 +48,7 @@ const writeFiles = (files) => {
 
 
 const openMain = () => {
-    let url = './public/index.html';
+    let url = './public/html/first_words.html';
     let options = {};
     let html= '';
     JSDOM.fromFile(url, options).then(dom => {
@@ -63,9 +63,11 @@ const openMain = () => {
             html += `
             
             <div class="card">
-                <a href="./html/${name}.html">
-                    <img src="./img/${name}.png" />
-                </a>
+                <div class="upperCard">
+                    <a href="./html/${name}.html">
+                        <img src="./img/${name}.png" />
+                    </a>
+                </div>
                 <div class="lowerCard">
                     <div class="adjective">
                         <img src="./img/${name1}.jpg">
@@ -82,7 +84,7 @@ const openMain = () => {
         }
         main.innerHTML = html;
         let newHTML = dom.serialize();
-        fs.outputFileSync('./public/index.html',newHTML);
+        fs.outputFileSync(url,newHTML);
     }); 
   
 }
