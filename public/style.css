@@ -42,6 +42,14 @@ body {
     flex-flow: row wrap;
     justify-content: space-around;	
 }
+video {
+	width: 500px;
+}
+.word {
+	font-size: xx-large;
+    font-family: 'Luckiest Guy', cursive;
+    font-weight: 100;
+}
 .card {
     padding: 20px;
     padding-bottom: 20px;
